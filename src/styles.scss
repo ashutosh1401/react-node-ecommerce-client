@@ -165,6 +165,16 @@
 }
 
 .row-bg {
-  background-color: #0b2c6f !important;
+  background-color: #06183e !important;
   color: white !important;
+}
+
+.link-color > li > a {
+  color: white !important;
+  margin: 10px !important;
+}
+.link-color > li > span {
+  font-size: x-small;
+  float: center;
+  top: 1px;
 }
