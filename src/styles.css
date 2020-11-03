@@ -1,4 +1,6 @@
-.btn, .jumbotron, .nav :hover {
+.btn,
+.jumbotron,
+.nav :hover {
   border-radius: 0px;
 }
 
@@ -135,5 +137,23 @@
           justify-content: center !important;
   margin: 0 auto !important;
   color: #249de3 !important;
+}
+
+.link-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.link-col {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.row-bg {
+  background-color: #0b2c6f !important;
+  color: white !important;
 }
 /*# sourceMappingURL=styles.css.map */
