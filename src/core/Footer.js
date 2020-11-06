@@ -21,6 +21,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                    <hr className="clearfix w-100 d-md-none pb-3" />
                     <div className="col-md-4 mb-md-0 mb-3">
 
                         <h5 className="text-uppercase"><b>Footer Links</b></h5>

@@ -215,6 +215,8 @@
 }
 .flexicons-container > div {
   align-self: center;
+  text-align: center;
+  margin: 0 auto;
   padding: 90px 15px;
   font-size: 35px;
 }
@@ -223,5 +225,34 @@
 }
 .flexicons-container > div > a {
   color: white !important;
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 976px) {
+  .flexicons-container > div {
+    align-self: center;
+    padding: 50px 10px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 975px) and (min-width: 795px) {
+  .flexicons-container > div {
+    align-self: center;
+    padding: 50px 5px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 794px) and (min-width: 500px) {
+  .flexicons-container > div {
+    align-self: center;
+    padding: 25px 10px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .flexicons-container > div {
+    align-self: center;
+    padding: 20px 10px;
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
