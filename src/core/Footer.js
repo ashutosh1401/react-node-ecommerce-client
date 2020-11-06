@@ -1,9 +1,10 @@
 import React from "react"
 import image1 from '../images/index.jpg'
+import { FaFacebook, FaLinkedin,FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer-section">
             <footer className="page-footer font-small blue pt-4">
 
                 <div className="container-fluid text-center text-md-center">
@@ -11,11 +12,12 @@ const Footer = () => {
                     <div className="col-md-4 mt-md-0 mt-3">
                         <div className="link-row">
                             <ul className="link-unstyled link-color">
-                                <li><i></i></li>
-                                <li><i></i></li>
-                                <li><i></i></li>
-                                <li><i></i></li>
-                                <li><i></i></li>
+                                <div className="flexicons-container">
+                                    <div><a href="#"><FaFacebook /></a></div>
+                                    <div><a href="#"><FaLinkedin /></a></div>
+                                    <div><a href="#"><FaTwitter /></a></div>
+                                    <div><a href="#"><FaEnvelope /></a></div>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -23,7 +25,7 @@ const Footer = () => {
 
                         <h5 className="text-uppercase"><b>Footer Links</b></h5>
                         <br />
-                        <ul className="list-unstyled link-color text-left">
+                        <ul className="list-styled link-color text-left">
                         <li>
                             <a href="#!">Home</a>
                         </li>
@@ -56,18 +58,18 @@ const Footer = () => {
 
                         <ul className="list-unstyled link-color">
                         <li>
-                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a><br/>
-                            <span>Jan 03 - 2019</span>
+                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a>
+                            <p><span>Jan 03 - 2019</span></p>
                             <hr />
                         </li>
                         <li>
-                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a><br/>
-                            <span>Jan 03 - 2019</span>
+                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a>
+                            <p><span>Jan 03 - 2019</span></p>
                             <hr />
                         </li>
                         <li>
-                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a><br/>
-                            <span>Jan 03 - 2019</span>
+                            <img src={image1} width="52px" height="52px" /><a href="#!">How to Design effective arts?</a>
+                            <p><span>Jan 03 - 2019</span></p>
                             <hr />
                         </li>
                         </ul>
